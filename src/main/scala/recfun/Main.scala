@@ -31,28 +31,22 @@ object Main {
     def balance(chars: List[Char]): Boolean = {
 
       def balanceIter(chars: List[Char], balanceCnt: Int): Int = {
-        var newBalanceCnt: Int = 0;
+        val cnt = balanceCnt;
+        System.out.println(cnt);
 
-        if(balanceCnt < 0) balanceIter(chars.tail, -1)
-
-        if (!chars.tail.isEmpty) {
-          if (chars.head == '(') {
-            newBalanceCnt = balanceCnt + 1
-          }
-          else if (chars.head == ')') {
-            newBalanceCnt = balanceCnt - 1
-          }
-
-          newBalanceCnt + balanceIter(chars.tail, newBalanceCnt)
-        } else {
-          if (chars.head == '(') {
-            newBalanceCnt =  1
-          }
-          else if (chars.head == ')') {
-            newBalanceCnt = -1
-          }
-          newBalanceCnt
+        if(chars.isEmpty || cnt < 0) {
+          return cnt
         }
+
+        if(chars.head == '(') {
+          balanceIter(chars.drop(1), cnt + 1)
+        }
+        else if (chars.head == ')') {
+          balanceIter(chars.drop(1), cnt - 1)
+        } else {
+          balanceIter(chars.drop(1), cnt)
+        }
+
       }
 
       val balanceCnt = 0
@@ -62,7 +56,7 @@ object Main {
       else if (balanceIter(chars, balanceCnt) < 0) false
       else true
     }
-  
+
   /**
    * Exercise 3
    */

@@ -1,0 +1,41 @@
+[0m[[0minfo[0m] [0m[32mBalanceSuite:[0m[0m
+[0m[[0minfo[0m] [0m[31m- balance: '(if (zero? x) max (/ 1 x))' is balanced *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.UnsupportedOperationException: tail of empty list[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Nil$.tail(List.scala:433)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Nil$.tail(List.scala:428)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.Main$.balanceIter$1(Main.scala:36)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.Main$.balanceIter$1(Main.scala:36)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.Main$.balanceIter$1(Main.scala:36)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.Main$.balanceIter$1(Main.scala:36)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.Main$.balanceIter$1(Main.scala:36)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.Main$.balanceIter$1(Main.scala:36)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.Main$.balanceIter$1(Main.scala:36)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.Main$.balanceIter$1(Main.scala:36)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m- balance: 'I told him ...' is balanced *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.UnsupportedOperationException: tail of empty list[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Nil$.tail(List.scala:433)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Nil$.tail(List.scala:428)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.Main$.balanceIter$1(Main.scala:36)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.Main$.balanceIter$1(Main.scala:36)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.Main$.balanceIter$1(Main.scala:36)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.Main$.balanceIter$1(Main.scala:36)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.Main$.balanceIter$1(Main.scala:36)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.Main$.balanceIter$1(Main.scala:36)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.Main$.balanceIter$1(Main.scala:36)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.Main$.balanceIter$1(Main.scala:36)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32m- balance: ':-)' is unbalanced[0m[0m
+[0m[[0minfo[0m] [0m[31m- balance: counting is not enough *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.UnsupportedOperationException: tail of empty list[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Nil$.tail(List.scala:433)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Nil$.tail(List.scala:428)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.Main$.balanceIter$1(Main.scala:36)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.Main$.balanceIter$1(Main.scala:36)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.Main$.balanceIter$1(Main.scala:46)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.Main$.balanceIter$1(Main.scala:46)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.Main$.balanceIter$1(Main.scala:46)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.Main$.balance(Main.scala:61)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.BalanceSuite$$anonfun$4.apply$mcV$sp(BalanceSuite.scala:26)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at recfun.BalanceSuite$$anonfun$4.apply(BalanceSuite.scala:26)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
